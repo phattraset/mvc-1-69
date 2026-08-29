@@ -1,0 +1,28 @@
+{
+  "judges": [
+    { "id": "J01", "name": "Simon Says" },
+    { "id": "J02", "name": "How Are You" },
+    { "id": "J03", "name": "Sofia Verygood" },
+    { "id": "J04", "name": "Mel C++" }
+  ],
+  "contestants": [
+    { "id": "P01", "name": "Nono Loyal", "performance": "ร้องเพลงและกีตาร์" },
+    { "id": "P02", "name": "Bug Number Five", "performance": "มายากล" },
+    { "id": "P03", "name": "Segmentation Fault", "performance": "เต้น" },
+    { "id": "P04", "name": "Null Pointer", "performance": "ตลกเดี่ยว" },
+    { "id": "P05", "name": "Git Push Force", "performance": "วงดนตรี" },
+    { "id": "P06", "name": "CSS Center Div", "performance": "ความสามารถพิเศษ" }
+  ],
+  "decisions": [
+    { "judge_id": "J01", "contestant_id": "P01", "result": "PASS" },
+    { "judge_id": "J01", "contestant_id": "P02", "result": "PASS" },
+    { "judge_id": "J02", "contestant_id": "P02", "result": "PASS" },
+    { "judge_id": "J03", "contestant_id": "P02", "result": "FAIL" },
+    { "judge_id": "J01", "contestant_id": "P05", "result": "PASS" },
+    { "judge_id": "J02", "contestant_id": "P05", "result": "PASS" },
+    { "judge_id": "J03", "contestant_id": "P05", "result": "FAIL" }
+  ],
+  "golden_buzzers": [
+    { "judge_id": "J04", "contestant_id": "P06" }
+  ]
+}

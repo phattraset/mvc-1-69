@@ -1,0 +1,13 @@
+{
+  "name": "ladkrabangs-got-talent-mvc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependency-free Node.js MVC practice project for Ladkrabang's Got Talent",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
